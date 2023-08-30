@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+#head .second-menu .menu{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 21px;
+}
+
+#head{
+    height: 50px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+#head .third-menu i{
+    border: 2px solid black;
+    padding: 13px 5px;
+    border-radius: 50px;
+    margin-top: -4px;
+    font-size: 20px;
+}
+
+#head .first-menu h5{
+    font-size: 29px;
+    margin-top: -9px;
+}
+
+#head .menu h5{
+    font-size: 16px;
+    color: grey;
+}
+
+#main .text{
+    text-align: center;
+    align-items: center;
+}
+
+#main .text h1{
+    font-weight: 400;
+}
+
+#main .text{
+    margin-top: 6rem;
+}
+
+#main .text p{
+    margin-top: 43px;
+    font-size: 20px;
+    color: grey;
+}
+
+#last .col-4{
+    margin-top: 54px;
+}
+
+#last .bord{
+    border: 1px solid black;
+    padding: 26px;
+    position: relative;
+    z-index: -1;
+}
+
+#last .bord h5{
+    margin-top: 45px;
+}
+
+#last .bord p{
+    margin-right: 30px;
+    color: grey;
+}
+
+#last .icon i{
+    background-color:blue;
+    padding: 30px 20px;
+    border-radius: 50px;
+    position: absolute;
+    z-index: 1;
+    top: -11%;
+    left: 16%;
+    transform: translate(-50%);
+    color: #fff;
+}
